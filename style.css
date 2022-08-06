@@ -104,5 +104,23 @@ button {
 
 .main-content {
     background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: 70px 1fr;
+}
+
+.main-left,
+.main-right {
+    display: grid;
+    grid-column: inherit;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-content > * > * {
+    /* border: double red 1px; */
 }
 
