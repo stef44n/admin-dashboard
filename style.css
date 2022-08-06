@@ -107,6 +107,7 @@ button {
     display: grid;
     grid-template-columns: 7fr 3fr;
     grid-template-rows: 70px 1fr;
+    padding: 10px 20px;
 }
 
 .main-left,
@@ -118,9 +119,26 @@ button {
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+    padding-right: 20px;
 }
 
-.main-content > * > * {
-    /* border: double red 1px; */
+.card.left {
+    background-color: wheat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.card.left > * > * {
+    border: double red 1px;
+    margin: 0;
+}
+
+.card.left > div:nth-child(2) {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
