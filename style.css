@@ -133,7 +133,7 @@ button {
 }
 
 .card.left > * > * {
-    border: double red 1px;
+    /* border: double red 1px; */
     margin: 0;
 }
 
@@ -141,4 +141,29 @@ button {
     display: flex;
     justify-content: end;
     gap: 20px;
+}
+
+.card.right {
+    background-color: wheat;
+    padding: 2px 20px;
+}
+
+.card.right > div > p {
+    width: 100%;
+    margin: 0 0 1em 0;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: smaller;  
+}
+
+.card.right > .layout {
+    display: flex;
+    gap: 20px;
+}
+
+.layout > div {
+    flex-grow: 1;
 }
