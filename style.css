@@ -73,6 +73,7 @@ div > ul {
     grid-template-rows: auto auto;
     box-shadow: 0 3px 5px rgb(192, 192, 192);
     z-index: 1;
+    padding-bottom: 5px;
 }
 
 .container-header {
@@ -180,11 +181,12 @@ button {
 
 .card.left > div > h3 {
     font-weight: 800;
+    margin-bottom: 5px;
 }
 
 .card.right {
     background-color: var(--secondary);
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .card.right > div > p {
@@ -235,4 +237,24 @@ img {
     font-size: 30px;
     padding: 0 15px;
     left: 1px;
+}
+
+.main-content h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.top-card h5,
+.top-card p {
+    padding: 0 7px;
+}
+
+.top-card h5 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+#middle-card {
+    border-top: solid 1px var(--tertiary);
+    border-bottom: solid 1px var(--tertiary);
 }
