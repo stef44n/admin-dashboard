@@ -121,6 +121,10 @@ input[type='text'] {
     margin: 15px 0;
 }
 
+.header-top-right img {
+    margin: 0 20px;
+}
+
 .buttons {
     display: flex;
     gap: 20px;
@@ -257,4 +261,8 @@ img {
 #middle-card {
     border-top: solid 1px var(--tertiary);
     border-bottom: solid 1px var(--tertiary);
+}
+
+.glyphicon-asterisk {
+    color: transparent;
 }
